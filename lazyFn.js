@@ -1,13 +1,11 @@
 /**
- * 懒加载执行方法，依赖jQuery
+ * 当容器出现在视窗内时再执行方法，依赖jQuery
  *
  * @version 1.0
  * @author liuchun on 2017/06/20
  * @example:
  *
  */
-  
-  // 当容器出现在视窗内时再执行方法
   var lazyFn = {
     fns: [], // 存放要执行的方法
     lazyLoadClass: 'lazyLoad',
